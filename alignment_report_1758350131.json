@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-09-20 14:35:31",
+  "c_version_info": {
+    "version": "Unknown",
+    "build_type": "Unknown",
+    "compiler": "Unknown"
+  },
+  "rust_version_info": {
+    "version": "Unknown",
+    "build_type": "Unknown",
+    "compiler": "Unknown"
+  },
+  "validation_results": [
+    {
+      "test_name": "transaction_creation",
+      "functional_alignment": true,
+      "performance_alignment": true,
+      "memory_alignment": true,
+      "hash_consistency": true,
+      "overall_score": 100.0,
+      "details": {
+        "transaction_count_match": true,
+        "success_count_c": 0,
+        "success_count_rust": 0,
+        "success_rate_diff": 0.0,
+        "c_time_ms": 150.5,
+        "rust_time_ms": 145.2,
+        "performance_diff_percent": 3.6501377410468403,
+        "faster_version": "Rust",
+        "c_memory_kb": 2048,
+        "rust_memory_kb": 2156,
+        "memory_diff_percent": 5.009276437847866
+      },
+      "recommendations": []
+    }
+  ],
+  "overall_alignment_score": 100.0,
+  "critical_issues": [],
+  "recommendations": [],
+  "compliance_status": "EXCELLENT"
+}
